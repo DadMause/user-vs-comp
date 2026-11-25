@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Користувач vs Комп'ютер</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="players-row">
+            <div class="player-box">
+                <div class="avatar-box">
+                    <img id="user-photo" src="user.jpg" alt="Фото гравця">
+                </div>
+                <h2 id="user-name">User</h2>
+                <div class="score-badge" id="user-score">0</div>
+                <div class="number-circle" id="user-number">?</div>
+            </div>
+            <div class="center-box">
+                <button id="generate-btn">Generate</button>
+                <p id="round-status">Натисніть Generate</p>
+            </div>
+            <div class="player-box">
+                <div class="avatar-box">
+                    <img id="comp-photo" src="computer.jpg" alt="Фото комп'ютера">
+                </div>
+                <h2>Computer</h2>
+                <div class="score-badge" id="comp-score">0</div>
+                <div class="number-circle" id="comp-number">?</div>
+            </div>
+        </div>
+        <div class="history-box">
+            <h3>Історія раундів:</h3>
+            <ul id="history-list"></ul>
+        </div>
+    </div>
+    <img id="dvd-logo" src="dvd.png" alt="DVD">
+    <script src="script.js"></script>
+</body>
+</html>
